@@ -1,0 +1,473 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+header {
+    background-color: rgb(215, 81, 81);
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    background-attachment: fixed ;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    z-index: 3;
+}
+
+.container {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    height: 60px;
+}
+.items{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.items li a {
+    color:white;
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.items li a:hover {
+    background-color: black;
+}
+
+.menu-items {
+    display: flex;
+    gap: 35px;
+}
+
+.icon {
+    background-color: black;
+    padding: 15px;
+    color: white;
+    position: relative;
+    width: 50px;
+    height: 40px;
+}
+
+.iconprice {
+    position: absolute;
+    background-color: white;
+    color:black;
+    border-radius: 50%;
+    padding: 3px;
+    width: 15px;
+    height: 25px;
+    right: -10px;
+    top: -10px;
+}
+
+#serving {
+    width: 100%;
+    height: 670px;
+    background-position: center;
+    background-image: url('https://countryclubtravels.com/wp-content/uploads/2017/11/wu-jianxiong-2393181-1-1024x576.jpg');
+    display: flex;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: flex-start;
+    align-items: center;
+}
+.text {
+    width: 60%;
+    transform: translateX(150px);
+}
+
+.text-main {
+    width: 40%;
+    color: white;
+    font-size: 62px;
+    font-weight: bold;
+}
+.text-acme {
+    max-width: 350px;
+    margin-bottom: 20px;
+    color:white;
+    font-size: 18px;
+}
+
+.btn {
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.btn:hover {
+    background-color:white;
+    color:black;
+}
+#support{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.support-container{
+    width: 80%;
+    height: 670px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.content-left{
+width: 60%;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+.content-right{
+    width: 50%;
+}
+.images{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 320px;
+    height: 350px;
+}
+#text-box{
+    margin-top: 20px;
+    width:90%;
+}
+#covid {
+    width: 100%;
+    height: 500px;
+    background-image: url('https://sb.ecobnb.net/app/uploads/sites/3/2022/12/nathan-dumlao-pLoMDKtl-JY-unsplash-1-1170x490.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.covid-text {
+    color: #fff;
+    width: 850px;
+    height: 130px;
+    position: relative;
+}
+
+.covid-texts{
+    color: #f9f9f9;
+    font-size: 45px;
+    line-height: 1.2;
+    text-align: right;
+    font-weight: bold;
+}
+
+.txt {
+    width: 400px;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+}
+
+.read {
+    width: 180px;
+    height: 40px;
+    padding: 10px;
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+.read:hover {
+    color:white;
+    background-color: red;
+
+}
+
+.covid-container {
+    width: 80%;
+    display: flex;
+    justify-content:flex-end ;
+}
+
+.texts {
+    display: flex;
+    justify-content: flex-end;
+}
+#page {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+#page-bg {
+    width: 100%;
+    height: 550px;
+    background-color: black;
+}
+
+#page-bg img {
+    opacity: 0.7;
+    height: 550px;
+}
+
+#page-text {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 170px;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: white;
+    text-align: right;
+}
+
+#page-text h1 {
+    font-size: 40px;
+
+}
+
+#page-text p {
+    font-size: 17px;
+}
+
+#page-text a {
+    text-decoration: none;
+    border: 1px solid white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 20px 8px 20px;
+    border-radius: 7px;
+    background-color: white;
+}
+
+#page-text a:hover {
+    background-color: red;
+    color: white;
+    border: 0;
+    transition: all 1s;
+}
+
+#section-o {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#o-container {
+    width: 1200px;
+    height: 800px;
+}
+
+#o-container #sectionO-text {
+    width: 400px;
+    height: 80px;
+}
+
+#o-container #sectionO-text h1 {
+    font-size: 40px;
+}
+
+#o-container #sectionO-text p {
+    font-size: 18px;
+}
+
+#secO-cart {
+    width: 100%;
+    height: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+#o-container .o-cart {
+    width: 390px;
+    height: 600px;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#o-container .o-cart img {
+    width: 390px;
+    height: 450px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#o-container .o-cart h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#o-container .o-cart p {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 140px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: rgb(225, 73, 73);
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+button:hover{
+    cursor: pointer;
+background-color: black;
+}
+
+#btn-all {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    border-radius: 7px;
+
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(225, 73, 73);
+
+}
+
+
+#section-shop {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#shop-container {
+    width: 1100px;
+    height: 700px;
+    position: relative;
+}
+
+#shop-sec {
+    width: 320px;
+    height: 300px;
+    position: absolute;
+    top: 40px;
+    z-index: 2;
+}
+
+#shop-sec img {
+    width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    
+}
+
+#shop-text {
+    width: 890px;
+    height: 700px;
+    background-color: #222222;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+    width: 400px;
+    height: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+#content h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+#content p {
+    margin-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#foot {
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#foot-logo img{
+    width: 200px;
+    height: 40px;
+}
+#foot i {
+    color: white;
+    font-size: 20px;
+}
+
+#foot a {
+    text-decoration: none;
+}
